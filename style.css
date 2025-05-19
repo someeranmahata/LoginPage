@@ -26,6 +26,8 @@
     align-items: center;
     border-radius: 8px;
     justify-content: space-around;
+
+     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 .btnround:hover{
   background-color: #f5f5f5; /* Light background change */
