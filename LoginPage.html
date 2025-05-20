@@ -5,57 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-    <title>Linkedin Log in, Sign in | Linkedin </title>
+    <title>LogInPage</title>
 </head>
 <body>
-    <header>
-        <div class="top">
-            <div class="name">
-                <p>Log in</p>
-            </div>            
+    <div class="box">
+        <div class="login">
+            <h1>Log in</h1>
         </div>
-    </header>
-    <div class="center-data">
-
-        <div class="signin">
-            <h1>Sign in</h1>
+        
+        <div class="data">
+            <input class= "data" type="email" placeholder="email"  required>
+        </div>
+        <div class="data">
+            <input class= "data" type="password" placeholder="Password" required>
         </div>
 
         <div class="loginbutton">
+            <p>or</p>
             <div class="google">
-                
                 <button class="btnround"><i class="fa-brands fa-google"></i> Continue with Google</button>
             </div>
             <div class="apple">
                 <button class="btnround"><i class="fa-brands fa-apple"></i> Sign in with Apple</button>
             </div>
+            
         </div>
 
-        <div class="ormesssage">
-            <p>or</p>
-        </div>
-
-        <div class="dataentry">
-            <input class="email" type="text" placeholder="Email or phone">
-            <input class="pass" type="password" placeholder="Password">
-        </div>
-
-        <div class="lowercontent">
-            <div class="passforgot">
+            <div class="rememberforgot">
+                <label for="#"><input type="checkbox">Remember me</label>
                 <a href="#">Forgot password?</a>
             </div>
-            <div class="check">
-                <input type="checkbox">
-                <label for="logged in">Keep me logged in</label>
+            <div class="btn">
+                <button class="btn" type="submit">Log in</button>
             </div>
-            <div class="buttonofsignin">
-                <button class="btnround1">Sign in</button>
+            <div class="newone">
+                <p>Don't have an account? <a href="#">Register now</a></p>
             </div>
         
-        </div>
-    </div>
-    <div class="messagefornewone">
-            <p class="messagefornewone">New to linkedIn? <a href="#">Join now</a></p>
     </div>
 </body>
 </html>

@@ -1,112 +1,87 @@
 *{
-    font-family: Arial;
-    border : border-box;
-}
-.top{
-    display: flex;
-    align-items: center;
-    padding-left: 5%;
-}
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
 
-.name{
-    font-size: 25px;
-    color: rgb(4, 109, 214);
-    font-weight: bold;
-    display: flex;
-    align-items: center;
 }
-.center-data{
-    width: 416px;
-    margin-left: 33%;
-    margin-right: 33%;
+body{
+    background-image: url(bg6.png);
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(10, 1, 27);
     display: flex;
-    height: 600px;
-    flex-direction: column;
-    border: 1px solid rgb(200, 196, 196);
-    align-items: center;
-    border-radius: 8px;
     justify-content: space-around;
-
-     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    align-items: center;
+    min-height: 100vh;
 }
-.btnround:hover{
-  background-color: #f5f5f5; /* Light background change */
-  transform: scale(1.02); /* Slight zoom effect */
-  transition-duration: 0.1s; /* Smooth transition */
+.box{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 500px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border-radius: 14px;
+    border: 0.5px white solid;
+    padding: 10px 40px;
+    box-shadow: 0 0 50px rgb(12, 12, 12);
 }
-.btnround1:hover{
-    border-color: #083b99;
-    background-color: #083b99; 
-    transform: scale(1.02); 
+.box:hover{
+    border: white;
+    transition-duration: 1s;
+    box-shadow: 0 0 50px rgb(191, 234, 18);
+}
+.login{
+    text-align: center;
+}
+.data{
+    height: 50px;
+    width: 100%;
+    margin: 8px;
+    border-bottom: 1px solid rgb(248, 243, 243);
+}
+.data input{
+    color: white;
+    border: none;
+    outline: none;
+    background-color: transparent;;
+    
+}
+.rememberforgot{
+    margin: 10px;
+}
+.rememberforgot a, .newone a{
+    color: rgb(90, 131, 212);
+}
+.btn{
+    color: white;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    border-radius: 16px;
+    border: 1px solid rgb(187, 188, 189);
+    background: transparent;
+}
+.btn:hover{
     transition-duration: 0.1s;
+    background-color: #02174b;
+    border-color: #f3f4f7;
 }
-.signin{
-    margin-right: 48%;
-}
-.google{
-    padding-bottom: 20px;
+.loginbutton p{
+    text-align: center;
 }
 .btnround{
-    background-color: white;
-    height: 50px;
+    margin: 10px;
+    height: 40px;
     width: 300px;
-    border-width: 1px;
-    border-radius: 30px;
+    background: transparent;
+    color: white;
+    border-radius: 16px;
+    border: 1px solid white;
 }
-.btnround1{
-    border-color: rgb(41, 122, 228);
-    color: aliceblue;
-    background-color: rgb(41, 122, 228);
-    height: 50px;
-    width: 300px;
-    border-width: 2px;
-    border-radius: 30px;
-}
-.email{
-    padding-bottom: 20px;
-}
-.pass{
-    padding-bottom: 20px;
-}
-.ormessage{
-    height: 10px;
-    display: flexbox;
-}
-.ormessage:before{
-    background-color: #083b99;
-    border: 2px solid #083b99;
-    width: 20px;
-    height: 2px;
-}
-.lowercontent{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: flex-start;
-}
-.passforgot{
-    font-family: 16px;
-    padding-bottom: 10px;
-}
-.buttonofsignin{
-    padding: 10px;
-}
-.messagefornewone{
-    padding-right: 50px;
-    display: flex;
-    justify-content: center;
-}
-.dataentry{
-    margin: 5%;
-    justify-content: space-between;
-    display: flex;  
-    flex-direction: column;
-}
-.email, .pass{
-    padding: 28px 12px 6px;
-    width: 300px;
-    align-content: center;
-}
-.email{
-    margin-bottom: 25px;
+.btnround:hover{
+    position: relative;
+    background-color: #06247d;
+    transition-duration: 0.1s;
 }
